@@ -1,0 +1,50 @@
+body {
+    background-image: url("../images/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.marker__ {
+    font-family: 'Permanent Marker', cursive;
+    margin-left: 2rem;
+
+}
+
+.marker__text {
+    font-family: 'Permanent Marker', cursive;
+    margin-left: 2rem;
+
+}
+
+#marker__ {
+    /* display: inline-block; */
+    z-index: 0;
+    
+    background-image: url("../images/whiteboard2.png");
+    background-repeat: no-repeat;
+    /* background-size:  58vh; */
+    background-size: contain;
+    background-position:center center;
+}
+
+.marker__btn {
+    margin: 2rem;
+}
+
+.rotate45deg {
+    transform: rotateX(45deg);
+}
+
+#bulb__ {
+    size: 41rem;
+    position: absolute;
+    left: 41.5%;
+}
+
+#passed__student {
+    z-index: -10;
+}
+
+#passed__cert {
+    z-index: -999;
+}

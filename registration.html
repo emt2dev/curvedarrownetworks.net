@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>
+            Curved Arrow Networks
+        </title>
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/icons/bootstrap-icons.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+        
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+        <script href="assets/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script href="assets/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    </head>
+    
+    <body>
+      <section id="ssfm">
+        <div class="container-fluid">
+          <center>
+            
+            <h3 class="text-danger">Curved Arrow Networks, LLC</h3>
+            <img class="navbar-brand" src="assets/logos/bird.svg" alt="logo"  height="80vh" />
+            
+            
+
+          </center>
+        </div>
+
+        <div class="container-fluid col-lg-6">
+          <form action="assets/codes/controller.php" method="post">
+
+            <div class="mb-3">
+              <label for="name" class="form-label"><strong>Name</strong></label>
+              <input type="text" class="form-control " name="name" placeholder="John Smith">
+            </div>
+
+              <div class="mb-3">
+                <label for="email" class="form-label"><strong>Email Address</strong></label>
+                <input type="email" class="form-control " name="email" placeholder="name@example.com">
+              </div>
+
+              <div class="mb-3">
+                <label for="phoneNumber" class="form-label"><strong>Contact Number</strong></label>
+                <input type="text" class="form-control " name="phoneNumber" placeholder="123-456-7890">
+              </div>
+
+              <div class="mb-3">
+                <label for="company" class="form-label"><strong>Your Company Name</strong></label>
+                <input type="text" class="form-control " name="company" placeholder="business">
+              </div>
+
+              <div class="mb-3">
+                <label for="location" class="form-label"><strong>Remote anywhere in the USA or Onsite for Virginia, North Carolina, Florida?</strong></label>
+                  <select name="location">
+                    <option value="Remote">Remote anywhere in the United States</option>
+                    <option value="Virginia">Onsite in Virginia</option>
+                    <option value="North Carolina">Onsite in North Carolina</option>
+                    <option value="Florida">Onsite in Florida</option>
+                  </select>
+              </div>
+
+              <div class="mb-3">
+                <label for="quantity" class="form-label"><strong>How many are taking this training with you?</strong></label>
+                <input type="number" class="form-control " name="quantity" placeholder="8" >
+              </div>
+
+              <div class="mb-3">
+                <label for="preferredDate" class="form-label"><strong>Preferred Date <br/><em>You will receive a phone call and email from our staff within 24-48 hours.</em></strong></label>
+                <input type="date" class="form-control " name="preferredDate" >
+              </div>
+
+              <a class="bg-dark" href="onsiteTOS.pdf" target="_blank">Onsite Terms of Services Agreement</a>
+              <br/>
+              <a class="bg-dark" href="remoteTOS.pdf" target="_blank">Remote Terms of Services Agreement</a>
+
+              <div class="mb-3">
+                <label for="tosAgreement" class="form-label">Agree to terms and conditions?</label>
+                  <select name="tosAgreement">
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                  </select>
+              </div>
+              <button class="btn btn-lg btn-info" name="preSale__btn">Send</button>
+          </form>
+          <br />
+        </div>
+    </section>
+    <br />
+  </body>
+  <script src="assets/js/scripts.js"></script>
+</html>
